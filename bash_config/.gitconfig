@@ -1,0 +1,12 @@
+[alias]
+	br = "branch"
+        co = "checkout"
+        rb = "rebase"
+        st = "status"
+        pu = "pull --rebase"
+        pull = "pull --rebase"
+        lg = log --pretty=format:'%C(yellow)%h%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative -n10
+        la = log --pretty=format:'%C(yellow)%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative -n10
+[user]
+	email = wallgren.gustav@gmail.com
+	name = Gustav Uppenberg
