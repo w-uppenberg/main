@@ -1,0 +1,14 @@
+C:\Users\guswal\Documents\repo\main\c-sharp-test\obj\Debug\net7.0\c-sharp-test.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\guswal\Documents\repo\main\c-sharp-test\obj\Debug\net7.0\c-sharp-test.AssemblyInfoInputs.cache
+C:\Users\guswal\Documents\repo\main\c-sharp-test\obj\Debug\net7.0\c-sharp-test.AssemblyInfo.cs
+C:\Users\guswal\Documents\repo\main\c-sharp-test\obj\Debug\net7.0\c-sharp-test.csproj.CoreCompileInputs.cache
+C:\Users\guswal\Documents\repo\main\c-sharp-test\bin\Debug\net7.0\c-sharp-test.exe
+C:\Users\guswal\Documents\repo\main\c-sharp-test\bin\Debug\net7.0\c-sharp-test.deps.json
+C:\Users\guswal\Documents\repo\main\c-sharp-test\bin\Debug\net7.0\c-sharp-test.runtimeconfig.json
+C:\Users\guswal\Documents\repo\main\c-sharp-test\bin\Debug\net7.0\c-sharp-test.dll
+C:\Users\guswal\Documents\repo\main\c-sharp-test\bin\Debug\net7.0\c-sharp-test.pdb
+C:\Users\guswal\Documents\repo\main\c-sharp-test\obj\Debug\net7.0\c-sharp-test.dll
+C:\Users\guswal\Documents\repo\main\c-sharp-test\obj\Debug\net7.0\refint\c-sharp-test.dll
+C:\Users\guswal\Documents\repo\main\c-sharp-test\obj\Debug\net7.0\c-sharp-test.pdb
+C:\Users\guswal\Documents\repo\main\c-sharp-test\obj\Debug\net7.0\c-sharp-test.genruntimeconfig.cache
+C:\Users\guswal\Documents\repo\main\c-sharp-test\obj\Debug\net7.0\ref\c-sharp-test.dll
