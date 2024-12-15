@@ -1,28 +1,24 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\Gustav\\Documents\\repo\\main\\aoc24\\aoc24\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\aoc24.bundle.scp.css",
-      "PackagePath": "staticwebassets\\aoc24.vkjeejcx3u.bundle.scp.css"
+      "Id": "C:\\Users\\guswal\\Documents\\repo\\main\\aoc24\\aoc24\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\aoc24.bundle.scp.css",
+      "PackagePath": "staticwebassets\\aoc24.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\Gustav\\Documents\\repo\\main\\aoc24\\aoc24\\wwwroot\\app.css",
+      "Id": "C:\\Users\\guswal\\Documents\\repo\\main\\aoc24\\aoc24\\wwwroot\\app.css",
       "PackagePath": "staticwebassets\\app.css"
     },
     {
-      "Id": "C:\\Users\\Gustav\\Documents\\repo\\main\\aoc24\\aoc24\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Id": "C:\\Users\\guswal\\Documents\\repo\\main\\aoc24\\aoc24\\wwwroot\\bootstrap\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\Gustav\\Documents\\repo\\main\\aoc24\\aoc24\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\guswal\\Documents\\repo\\main\\aoc24\\aoc24\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Gustav\\Documents\\repo\\main\\aoc24\\aoc24\\wwwroot\\favicon.png",
+      "Id": "C:\\Users\\guswal\\Documents\\repo\\main\\aoc24\\aoc24\\wwwroot\\favicon.png",
       "PackagePath": "staticwebassets\\favicon.png"
-    },
-    {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.aoc24.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
-      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.aoc24.Microsoft.AspNetCore.StaticWebAssets.props",

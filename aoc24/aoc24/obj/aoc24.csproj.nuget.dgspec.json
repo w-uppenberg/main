@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Gustav\\Documents\\repo\\main\\aoc24\\aoc24\\aoc24.csproj": {}
+    "C:\\Users\\guswal\\Documents\\repo\\main\\aoc24\\aoc24\\aoc24.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Gustav\\Documents\\repo\\main\\aoc24\\aoc24\\aoc24.csproj": {
+    "C:\\Users\\guswal\\Documents\\repo\\main\\aoc24\\aoc24\\aoc24.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Gustav\\Documents\\repo\\main\\aoc24\\aoc24\\aoc24.csproj",
+        "projectUniqueName": "C:\\Users\\guswal\\Documents\\repo\\main\\aoc24\\aoc24\\aoc24.csproj",
         "projectName": "aoc24",
-        "projectPath": "C:\\Users\\Gustav\\Documents\\repo\\main\\aoc24\\aoc24\\aoc24.csproj",
-        "packagesPath": "C:\\Users\\Gustav\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Gustav\\Documents\\repo\\main\\aoc24\\aoc24\\obj\\",
+        "projectPath": "C:\\Users\\guswal\\Documents\\repo\\main\\aoc24\\aoc24\\aoc24.csproj",
+        "packagesPath": "C:\\Users\\guswal\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\guswal\\Documents\\repo\\main\\aoc24\\aoc24\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "D:\\Program\\Microsoft\\VisualStudio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Gustav\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\guswal\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -39,13 +39,7 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "all"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -69,7 +63,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

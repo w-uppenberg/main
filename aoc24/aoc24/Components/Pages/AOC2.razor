@@ -1,0 +1,58 @@
+﻿@page "/aoc2"
+@rendermode InteractiveServer
+@using System.Diagnostics
+@using System.Text.RegularExpressions
+
+<PageTitle>Day 2</PageTitle>
+
+<h3>AOC 2024 - Gustav Solutions - Day 2</h3>
+<p>Enter the input for the next activity</p>
+
+<div class="input-container">
+	<textarea class="styled-textarea" @bind="inputText" rows="10" cols="50"></textarea>
+	<button class="btn btn-light" @onclick="ReadInput">Perform todays activity!</button>
+</div>
+
+<h2>Part 1 Result: @res1</h2>
+<h2>Part 2 Result: @res2</h2>
+
+
+
+@code {
+	private String inputText = "";
+	private String res1 =  "";
+	private String res2 = "";
+
+	private void ReadInput() {
+		Debug.WriteLine(inputText);
+
+		string[] rows = (new Regex("[^0-9] ")).Replace(inputText, "").Split("\n");
+		List<List<int>> columns = new List<List<int>>();
+		foreach (string row in rows)
+		{
+			string[] splitRow = row.Split(" ");
+			for (int i = 0; i<splitRow.Length;i++)
+			{
+				if (columns.Count < (i + 1))
+				{
+					columns.Add(new List<int>());
+				}
+				columns[i].Add(int.Parse(splitRow[i]));
+			}
+		}
+
+		for(int i = 0; i<columns[0].Count;i++)
+		{
+			bool decreasing = true;
+			//check if this report is safe by checking if the entry on on columns[i][j] is always larger than or smaller than columns[i][j+1]  
+
+			for (int j = 0; j < columns.Count - 1; j++)
+            {
+                if (columns[i][j] > columns[i][j+1])
+                {
+                    decreasing = false;
+                }
+            }
+		}
+	}
+}

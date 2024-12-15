@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "dEcwuGhpqerAkRXk4Hv/Ys7HewmxkLufk76UQ/cJlac=",
+  "Hash": "ElDg1s1I4VTA3Be3n5Rcmp9ypIH9VLLu+pr1vAU0GKI=",
   "Source": "aoc24",
   "BasePath": "_content/aoc24",
   "Mode": "Default",
@@ -10,19 +10,19 @@
     {
       "Name": "aoc24\\wwwroot",
       "Source": "aoc24",
-      "ContentRoot": "C:\\Users\\Gustav\\Documents\\repo\\main\\aoc24\\aoc24\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\guswal\\Documents\\repo\\main\\aoc24\\aoc24\\wwwroot\\",
       "BasePath": "_content/aoc24",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\Gustav\\Documents\\repo\\main\\aoc24\\aoc24\\obj\\Debug\\net8.0\\scopedcss\\bundle\\aoc24.styles.css",
+      "Identity": "C:\\Users\\guswal\\Documents\\repo\\main\\aoc24\\aoc24\\obj\\Debug\\net8.0\\scopedcss\\bundle\\aoc24.styles.css",
       "SourceId": "aoc24",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Gustav\\Documents\\repo\\main\\aoc24\\aoc24\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\guswal\\Documents\\repo\\main\\aoc24\\aoc24\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/aoc24",
-      "RelativePath": "aoc24#[.{fingerprint}]?.styles.css",
+      "RelativePath": "aoc24.styles.css",
       "AssetKind": "All",
       "AssetMode": "CurrentProject",
       "AssetRole": "Primary",
@@ -31,19 +31,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ApplicationBundle",
-      "Fingerprint": "vkjeejcx3u",
-      "Integrity": "Yaue0L8TZNqzfNnyja6/zOKWHRfYPLhP9asFECKDd9E=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Gustav\\Documents\\repo\\main\\aoc24\\aoc24\\obj\\Debug\\net8.0\\scopedcss\\bundle\\aoc24.styles.css"
+      "OriginalItemSpec": "C:\\Users\\guswal\\Documents\\repo\\main\\aoc24\\aoc24\\obj\\Debug\\net8.0\\scopedcss\\bundle\\aoc24.styles.css"
     },
     {
-      "Identity": "C:\\Users\\Gustav\\Documents\\repo\\main\\aoc24\\aoc24\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\aoc24.bundle.scp.css",
+      "Identity": "C:\\Users\\guswal\\Documents\\repo\\main\\aoc24\\aoc24\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\aoc24.bundle.scp.css",
       "SourceId": "aoc24",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Gustav\\Documents\\repo\\main\\aoc24\\aoc24\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\guswal\\Documents\\repo\\main\\aoc24\\aoc24\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/aoc24",
-      "RelativePath": "aoc24#[.{fingerprint}]!.bundle.scp.css",
+      "RelativePath": "aoc24.bundle.scp.css",
       "AssetKind": "All",
       "AssetMode": "Reference",
       "AssetRole": "Primary",
@@ -52,589 +50,85 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ProjectBundle",
-      "Fingerprint": "vkjeejcx3u",
-      "Integrity": "Yaue0L8TZNqzfNnyja6/zOKWHRfYPLhP9asFECKDd9E=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Gustav\\Documents\\repo\\main\\aoc24\\aoc24\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\aoc24.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\guswal\\Documents\\repo\\main\\aoc24\\aoc24\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\aoc24.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\Gustav\\Documents\\repo\\main\\aoc24\\aoc24\\wwwroot\\app.css",
+      "Identity": "C:\\Users\\guswal\\Documents\\repo\\main\\aoc24\\aoc24\\wwwroot\\app.css",
       "SourceId": "aoc24",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Gustav\\Documents\\repo\\main\\aoc24\\aoc24\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\guswal\\Documents\\repo\\main\\aoc24\\aoc24\\wwwroot\\",
       "BasePath": "_content/aoc24",
-      "RelativePath": "app#[.{fingerprint}]?.css",
+      "RelativePath": "app.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
+      "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "kmajr4zxsh",
-      "Integrity": "jLcRm3EoMNVu31QM+1ZgSSXaTl4mi2pqT4wAMGOuVlc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\app.css"
     },
     {
-      "Identity": "C:\\Users\\Gustav\\Documents\\repo\\main\\aoc24\\aoc24\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Identity": "C:\\Users\\guswal\\Documents\\repo\\main\\aoc24\\aoc24\\wwwroot\\bootstrap\\bootstrap.min.css",
       "SourceId": "aoc24",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Gustav\\Documents\\repo\\main\\aoc24\\aoc24\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\guswal\\Documents\\repo\\main\\aoc24\\aoc24\\wwwroot\\",
       "BasePath": "_content/aoc24",
-      "RelativePath": "bootstrap/bootstrap.min#[.{fingerprint}]?.css",
+      "RelativePath": "bootstrap/bootstrap.min.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
+      "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "bpk8xqwxhs",
-      "Integrity": "z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\Gustav\\Documents\\repo\\main\\aoc24\\aoc24\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\guswal\\Documents\\repo\\main\\aoc24\\aoc24\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "aoc24",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Gustav\\Documents\\repo\\main\\aoc24\\aoc24\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\guswal\\Documents\\repo\\main\\aoc24\\aoc24\\wwwroot\\",
       "BasePath": "_content/aoc24",
-      "RelativePath": "bootstrap/bootstrap.min.css#[.{fingerprint}]?.map",
+      "RelativePath": "bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
+      "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "8inm30yfxf",
-      "Integrity": "gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Gustav\\Documents\\repo\\main\\aoc24\\aoc24\\wwwroot\\favicon.png",
+      "Identity": "C:\\Users\\guswal\\Documents\\repo\\main\\aoc24\\aoc24\\wwwroot\\favicon.png",
       "SourceId": "aoc24",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Gustav\\Documents\\repo\\main\\aoc24\\aoc24\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\guswal\\Documents\\repo\\main\\aoc24\\aoc24\\wwwroot\\",
       "BasePath": "_content/aoc24",
-      "RelativePath": "favicon#[.{fingerprint}]?.png",
+      "RelativePath": "favicon.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
+      "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "ifv42okdf2",
-      "Integrity": "4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.png"
-    }
-  ],
-  "Endpoints": [
-    {
-      "Route": "aoc24.bundle.scp.css",
-      "AssetFile": "C:\\Users\\Gustav\\Documents\\repo\\main\\aoc24\\aoc24\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\aoc24.bundle.scp.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "5893"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Yaue0L8TZNqzfNnyja6/zOKWHRfYPLhP9asFECKDd9E=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 15 Dec 2024 19:25:51 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-Yaue0L8TZNqzfNnyja6/zOKWHRfYPLhP9asFECKDd9E="
-        }
-      ]
-    },
-    {
-      "Route": "aoc24.styles.css",
-      "AssetFile": "C:\\Users\\Gustav\\Documents\\repo\\main\\aoc24\\aoc24\\obj\\Debug\\net8.0\\scopedcss\\bundle\\aoc24.styles.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "5893"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Yaue0L8TZNqzfNnyja6/zOKWHRfYPLhP9asFECKDd9E=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 15 Dec 2024 19:25:51 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-Yaue0L8TZNqzfNnyja6/zOKWHRfYPLhP9asFECKDd9E="
-        }
-      ]
-    },
-    {
-      "Route": "aoc24.vkjeejcx3u.bundle.scp.css",
-      "AssetFile": "C:\\Users\\Gustav\\Documents\\repo\\main\\aoc24\\aoc24\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\aoc24.bundle.scp.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "5893"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Yaue0L8TZNqzfNnyja6/zOKWHRfYPLhP9asFECKDd9E=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 15 Dec 2024 19:25:51 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "vkjeejcx3u"
-        },
-        {
-          "Name": "label",
-          "Value": "aoc24.bundle.scp.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-Yaue0L8TZNqzfNnyja6/zOKWHRfYPLhP9asFECKDd9E="
-        }
-      ]
-    },
-    {
-      "Route": "aoc24.vkjeejcx3u.styles.css",
-      "AssetFile": "C:\\Users\\Gustav\\Documents\\repo\\main\\aoc24\\aoc24\\obj\\Debug\\net8.0\\scopedcss\\bundle\\aoc24.styles.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "5893"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Yaue0L8TZNqzfNnyja6/zOKWHRfYPLhP9asFECKDd9E=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 15 Dec 2024 19:25:51 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "vkjeejcx3u"
-        },
-        {
-          "Name": "label",
-          "Value": "aoc24.styles.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-Yaue0L8TZNqzfNnyja6/zOKWHRfYPLhP9asFECKDd9E="
-        }
-      ]
-    },
-    {
-      "Route": "app.css",
-      "AssetFile": "C:\\Users\\Gustav\\Documents\\repo\\main\\aoc24\\aoc24\\wwwroot\\app.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2967"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"jLcRm3EoMNVu31QM+1ZgSSXaTl4mi2pqT4wAMGOuVlc=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 12 Dec 2024 20:44:16 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-jLcRm3EoMNVu31QM+1ZgSSXaTl4mi2pqT4wAMGOuVlc="
-        }
-      ]
-    },
-    {
-      "Route": "app.kmajr4zxsh.css",
-      "AssetFile": "C:\\Users\\Gustav\\Documents\\repo\\main\\aoc24\\aoc24\\wwwroot\\app.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2967"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"jLcRm3EoMNVu31QM+1ZgSSXaTl4mi2pqT4wAMGOuVlc=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 12 Dec 2024 20:44:16 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "kmajr4zxsh"
-        },
-        {
-          "Name": "label",
-          "Value": "app.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-jLcRm3EoMNVu31QM+1ZgSSXaTl4mi2pqT4wAMGOuVlc="
-        }
-      ]
-    },
-    {
-      "Route": "bootstrap/bootstrap.min.bpk8xqwxhs.css",
-      "AssetFile": "C:\\Users\\Gustav\\Documents\\repo\\main\\aoc24\\aoc24\\wwwroot\\bootstrap\\bootstrap.min.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "162720"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 28 Nov 2024 19:55:15 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "bpk8xqwxhs"
-        },
-        {
-          "Name": "label",
-          "Value": "bootstrap/bootstrap.min.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg="
-        }
-      ]
-    },
-    {
-      "Route": "bootstrap/bootstrap.min.css",
-      "AssetFile": "C:\\Users\\Gustav\\Documents\\repo\\main\\aoc24\\aoc24\\wwwroot\\bootstrap\\bootstrap.min.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "162720"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 28 Nov 2024 19:55:15 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg="
-        }
-      ]
-    },
-    {
-      "Route": "bootstrap/bootstrap.min.css.8inm30yfxf.map",
-      "AssetFile": "C:\\Users\\Gustav\\Documents\\repo\\main\\aoc24\\aoc24\\wwwroot\\bootstrap\\bootstrap.min.css.map",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "449111"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/plain"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 28 Nov 2024 19:55:15 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "8inm30yfxf"
-        },
-        {
-          "Name": "label",
-          "Value": "bootstrap/bootstrap.min.css.map"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ="
-        }
-      ]
-    },
-    {
-      "Route": "bootstrap/bootstrap.min.css.map",
-      "AssetFile": "C:\\Users\\Gustav\\Documents\\repo\\main\\aoc24\\aoc24\\wwwroot\\bootstrap\\bootstrap.min.css.map",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "449111"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/plain"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 28 Nov 2024 19:55:15 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ="
-        }
-      ]
-    },
-    {
-      "Route": "favicon.ifv42okdf2.png",
-      "AssetFile": "C:\\Users\\Gustav\\Documents\\repo\\main\\aoc24\\aoc24\\wwwroot\\favicon.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1148"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 28 Nov 2024 19:55:15 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "ifv42okdf2"
-        },
-        {
-          "Name": "label",
-          "Value": "favicon.png"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg="
-        }
-      ]
-    },
-    {
-      "Route": "favicon.png",
-      "AssetFile": "C:\\Users\\Gustav\\Documents\\repo\\main\\aoc24\\aoc24\\wwwroot\\favicon.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1148"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 28 Nov 2024 19:55:15 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg="
-        }
-      ]
     }
   ]
 }

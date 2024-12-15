@@ -9,21 +9,24 @@
 <p>Enter the input for the next activity</p>
 
 <div class="input-container">
-	<textarea class="styled-textarea" @bind="textValue" rows="10" cols="50"></textarea>
+	<textarea class="styled-textarea" @bind="inputText" rows="10" cols="50"></textarea>
 	<button class="btn btn-light" @onclick="ReadInput">Perform todays activity!</button>
 </div>
 
-<h2>Result:</h2>
+<h2>Part 1 Result: @res1</h2>
+<h2>Part 2 Result: @res2</h2>
 
 
 
 @code {
-	private String textValue = "";
+	private String inputText = "";
+	private String res1 =  "";
+	private String res2 = "";
 
 	private void ReadInput() {
-		Debug.WriteLine(textValue);
+		Debug.WriteLine(inputText);
 
-		string[] rows = (new Regex("[^0-9] ")).Replace(textValue, "").Split("\n");
+		string[] rows = (new Regex("[^0-9] ")).Replace(inputText, "").Split("\n");
 		List<int> leftColumn = new List<int>();
 		List<int> rightColumn = new List<int>();
 		foreach (string row in rows)
@@ -45,8 +48,25 @@
 			distance += Math.Abs(leftColumn[i] - rightColumn[i]);
 		}
 
-		
-		Debug.WriteLine(textValue);
+		res1 = distance.ToString();
+
+		int uniqueness = 0;
+		foreach (int i in leftColumn)
+		{
+			int occurances = 0;
+			foreach (int j in rightColumn)
+			{
+				if (i == j)
+				{
+					occurances ++;
+				}
+				if (j > i)
+				{
+					break;	
+				}
+			}
+			uniqueness += (i * occurances);
+		}
+		res2 = uniqueness.ToString();
 	}
-	
 }
