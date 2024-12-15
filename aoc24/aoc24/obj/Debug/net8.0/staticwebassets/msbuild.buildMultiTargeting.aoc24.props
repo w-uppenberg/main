@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\aoc24.props" />
+</Project>
