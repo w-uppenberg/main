@@ -9,7 +9,7 @@
 <p>Enter the input for the next activity</p>
 
 <div class="input-container">
-	<textarea class="styled-textarea" @bind="inputText" rows="10" cols="50"></textarea>
+	<textarea class="styled-textarea" @bind="inputText" rows="10" cols="50" maxlength="32000"></textarea>
 	<button class="btn btn-light" @onclick="ReadInput">Perform todays activity!</button>
 </div>
 
@@ -24,35 +24,138 @@
 	private String res2 = "";
 
 	private void ReadInput() {
+		Part1();
+		Part2();
+	}
+
+
+	private void Part1()
+	{
 		Debug.WriteLine(inputText);
 
-		string[] rows = (new Regex("[^0-9] ")).Replace(inputText, "").Split("\n");
-		List<List<int>> columns = new List<List<int>>();
-		foreach (string row in rows)
+		string[] rowsStr = (new Regex("[^0-9] ")).Replace(inputText, "").Split("\n");
+		List<List<int>> rows = new List<List<int>>();
+		foreach (string rowStr in rowsStr)
 		{
-			string[] splitRow = row.Split(" ");
-			for (int i = 0; i<splitRow.Length;i++)
+			List<int> row = new List<int>();
+			string[] splitRow = rowStr.Split(" ");
+
+			for (int i = 0; i < splitRow.Length; i++)
 			{
-				if (columns.Count < (i + 1))
+				row.Add(int.Parse(splitRow[i]));
+			}
+			rows.Add(row);
+		}
+
+		int nrSafeReports = 0;
+		foreach (List<int> row in rows)
+		{
+			int decreasing = 0;
+			int increasing = 0;
+
+
+			bool faultySizeDiff = false;
+			//check if this report is safe by checking if the entry on on columns[i][j] is always larger than or smaller than columns[i][j+1]
+			for (int i = 0; i < (row.Count - 1); i++)
+			{
+				if (row[i] > row[i + 1])
 				{
-					columns.Add(new List<int>());
+					decreasing++;
 				}
-				columns[i].Add(int.Parse(splitRow[i]));
+				if (row[i] < row[i + 1])
+				{
+					increasing++;
+				}
+
+				if (row[i] == row[i + 1] || Math.Abs(row[i] - row[i + 1]) > 3)
+				{
+					faultySizeDiff = true;
+				}
+			}
+			if ((decreasing == 0 && increasing > 0 || increasing == 0 && decreasing > 0) && !faultySizeDiff)
+			{
+				nrSafeReports++;
+			}
+
+		}
+
+		res1 = nrSafeReports.ToString();
+	}
+
+	private void Part2()
+	{
+		Debug.WriteLine(inputText);
+
+		string[] rowsStr = (new Regex("[^0-9] ")).Replace(inputText, "").Split("\n");
+		List<List<int>> rows = new List<List<int>>();
+		foreach (string rowStr in rowsStr)
+		{
+			List<int> row = new List<int>();
+			string[] splitRow = rowStr.Split(" ");
+
+			for (int i = 0; i < splitRow.Length; i++)
+			{
+				row.Add(int.Parse(splitRow[i]));
+			}
+			rows.Add(row);
+		}
+
+		int nrSafeReports = 0;
+		foreach (List<int> row in rows)
+		{
+			bool rowOk = TestRow(row);
+			if (rowOk)
+			{
+				nrSafeReports++;
+			}
+			else
+			{
+				//check
+				for (int i = 0; i<row.Count; i++ )
+				{
+					List<int> rowCopy = new List<int>(row);
+					rowCopy.RemoveAt(i);
+					if (TestRow(rowCopy))
+                    {
+                        nrSafeReports++;
+                        break;
+                    }
+				}
 			}
 		}
 
-		for(int i = 0; i<columns[0].Count;i++)
-		{
-			bool decreasing = true;
-			//check if this report is safe by checking if the entry on on columns[i][j] is always larger than or smaller than columns[i][j+1]  
+		res2 = nrSafeReports.ToString();
+	}
 
-			for (int j = 0; j < columns.Count - 1; j++)
-            {
-                if (columns[i][j] > columns[i][j+1])
-                {
-                    decreasing = false;
-                }
-            }
+
+	private bool TestRow(List<int> row)
+	{
+
+		int decreasing = 0;
+		int increasing = 0;
+		bool faultySizeDiff = false;
+		//check if this report is safe by checking if the entry on on columns[i][j] is always larger than or smaller than columns[i][j+1]
+
+		for (int i = 0; i < (row.Count - 1); i++)
+		{
+			if (row[i] > row[i + 1])
+			{
+				decreasing++;
+			}
+			if (row[i] < row[i + 1])
+			{
+				increasing++;
+			}
+
+			if (row[i] == row[i + 1] || Math.Abs(row[i] - row[i + 1]) > 3)
+			{
+				faultySizeDiff = true;
+			}
 		}
+		if ((decreasing == 0 && increasing > 0 || increasing == 0 && decreasing > 0) && !faultySizeDiff)
+		{
+			return true;
+		}
+		return false;
 	}
 }
