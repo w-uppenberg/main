@@ -1,0 +1,77 @@
+﻿@page "/aoc3"
+@rendermode InteractiveServer
+@using System.Diagnostics
+@using System.Text.RegularExpressions
+
+<PageTitle>Day 2</PageTitle>
+
+<h3>AOC 2024 - Gustav Solutions - Day 2</h3>
+<p>Enter the input for the next activity</p>
+
+<div class="input-container">
+	<textarea class="styled-textarea" @bind="inputText" rows="10" cols="50" maxlength="32000"></textarea>
+	<button class="btn btn-light" @onclick="ReadInput">Perform todays activity!</button>
+</div>
+
+<h2>Part 1 Result: @res1</h2>
+<h2>Part 2 Result: @res2</h2>
+
+
+
+@code {
+	private String inputText = "";
+	private String res1 =  "";
+	private String res2 = "";
+
+	private void ReadInput() {
+		Part1();
+		Part2();
+	}
+
+
+	private void Part1()
+	{
+		Debug.WriteLine(inputText);
+		int res = 0;
+		MatchCollection matches = (new Regex("(mul\\([0-9][0-9]?[0-9]?,[0-9][0-9]?[0-9]?\\))")).Matches(inputText);
+		foreach (Match match in matches)
+		{
+			Regex rgx = new Regex("[^0-9]");
+			String row = match.Value;
+			String[] splitRow = row.Split(",");
+			if (splitRow.Length != 2)
+				continue;
+			int val1 = int.Parse(rgx.Replace(splitRow[0], ""));
+			int val2 = int.Parse(rgx.Replace(splitRow[1], ""));
+			res+=val1*val2;
+		}
+		res1 = res.ToString();
+	}
+
+	private void Part2()
+	{
+		Debug.WriteLine(inputText);
+		int res = 0;
+		bool enabled = true;
+		MatchCollection matches = (new Regex("(mul\\([0-9][0-9]?[0-9]?,[0-9][0-9]?[0-9]?\\))|(don't)|(do)")).Matches(inputText);
+
+		foreach (Match match in matches)
+		{
+			enabled = match.Value.Contains("do") ? true : enabled;
+			enabled = match.Value.Contains("don't") ? false : enabled;
+			if (!enabled)
+			{
+				continue;
+			}
+			Regex rgx = new Regex("[^0-9]");
+			String[] splitRow = match.Value.Split(",");
+			if (splitRow.Length != 2) {
+				continue;
+			}
+			int val1 = int.Parse(rgx.Replace(splitRow[0], ""));
+			int val2 = int.Parse(rgx.Replace(splitRow[1], ""));
+			res += val1 * val2;
+		}
+		res2 = res.ToString();
+	}
+}
